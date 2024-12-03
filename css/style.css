@@ -41,6 +41,7 @@ body {
     -webkit-text-fill-color: transparent;
     transition: transform 0.5s ease, text-shadow 0.5s ease;
     font-family: 'Audiowide';
+    -webkit-text-stroke: 0.5px #ada7a4;
 }
 
 .logo a:hover {
@@ -180,14 +181,14 @@ canvas {
 
 /* Hero Section */
 .hero {
-    height: 100vh;
+    height: 90vh;
     display: flex;
     align-items: center;
     justify-content: center;
     
     text-align: center;
     z-index: 1;
-    position: sticky; /* Joyida turadi */
+    position: relative; /* Joyida turadi */
     top: 0; /* Har doim yuqorida bo‘ladi */
 }
 
@@ -201,15 +202,16 @@ canvas {
     font-size: 3rem;
     line-height: 1.2;
     margin-bottom: 20px;
-    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    color: #5b97dc;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.55);
+    color: #ffff01;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    -webkit-text-stroke: 1px #050505;
 }
 
 .hero p {
     font-size: 1.2rem;
     margin-bottom: 30px;
-    color: #838485;
+    color: #727579;
     font-family: 'Audiowide';
 }
 
@@ -231,7 +233,7 @@ canvas {
 
 .primary-btn {
     background: linear-gradient(to right, #ffdd00, #ffaa00);
-    color: #a49999;
+    color: #8b7d7d;
     box-shadow: 0 4px 10px rgba(255, 170, 0, 0.5);
 }
 
