@@ -1,0 +1,94 @@
+/* Umumiy Sozlamalar */
+.curriculum {
+    padding: 60px 20px;
+    background: linear-gradient(to bottom, #f7f9fc, #ffffff);
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+.curriculum .container{
+    display: flex;
+    flex-direction: column;
+}
+.curriculum h2 {
+    font-size: 2.5rem;
+    color: #00509e;
+    margin-bottom: 30px;
+    font-family: 'Audiowide', sans-serif;
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.main-menu {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.menu-item {
+    background: linear-gradient(145deg, #ffffff, #e6f3ff);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    margin-bottom: 20px;
+    padding: 15px 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+}
+
+.menu-title {
+    font-size: 1.4rem;
+    color: #005ba0;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.submenu {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.lesson-item {
+    padding: 12px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #0077b6, #00b4d8);
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.lesson-item:hover {
+    background: linear-gradient(90deg, #00509e, #0077b6);
+    transform: translateY(-2px) scale(1.05);
+}
+
+.lesson-item.locked {
+    background: #cccccc;
+    color: #555555;
+    cursor: not-allowed;
+    box-shadow: none;
+}
+
+.lesson-item.locked:hover {
+    transform: none;
+}
+
+/* Responsive Dizayn */
+@media (max-width: 768px) {
+    .submenu {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .menu-title {
+        font-size: 1.2rem;
+    }
+
+    .lesson-item {
+        font-size: 0.9rem;
+        padding: 10px 15px;
+    }
+}
