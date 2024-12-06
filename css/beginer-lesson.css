@@ -237,3 +237,120 @@
         padding: 8px 15px;
     }
 }
+/* Umumiy Section Style */
+#alphabet-lesson {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 40px;
+    background: linear-gradient(145deg, #ffffff, #f3f4f7);
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+/* Sarlavha */
+.section-title {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #0077b6;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+/* Har bir Mashq */
+.exercise {
+    background: #f9f9fc;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.exercise:hover {
+    transform: scale(1.02);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Mashq Sarlavhalari */
+.exercise-title {
+    font-size: 1.8rem;
+    color: #00509e;
+    margin-bottom: 10px;
+}
+
+/* Mashq Tavsifi */
+.exercise-desc {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Harflar va Misollar */
+.letters {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #444;
+    background: #eef3fa;
+    padding: 10px 15px;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+/* Javoblar yoki Ro‘yxatlar */
+.exercise ul {
+    padding-left: 20px;
+    list-style: disc;
+}
+
+.exercise li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+/* Input Elementlari */
+input[type="text"] {
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 1rem;
+    color: #333;
+    background: #f7f9fc;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.05);
+    margin-bottom: 15px;
+    transition: all 0.3s ease;
+}
+
+input[type="text"]:focus {
+    border-color: #0077b6;
+    box-shadow: 0 0 10px rgba(0, 120, 255, 0.2);
+    outline: none;
+}
+
+/* Tugmalar */
+button {
+    padding: 12px 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    background: linear-gradient(90deg, #0077b6, #00b4d8);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 120, 255, 0.3);
+}
+
+button:hover {
+    background: linear-gradient(90deg, #0056cc, #003e99);
+    box-shadow: 0 8px 20px rgba(0, 120, 255, 0.5);
+}
+
+button:active {
+    transform: translateY(2px);
+    box-shadow: 0 5px 10px rgba(0, 120, 255, 0.3);
+}
